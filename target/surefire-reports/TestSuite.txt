@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.73 s <<< FAILURE! - in TestSuite
+successfulPayment(tests.paymentTest)  Time elapsed: 8.136 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+target frame detached
+  (Session info: chrome=86.0.4240.111)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Kshitijas-MacBook-Air.local', ip: 'fe80:0:0:0:180e:58c1:98f5:8968%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '10.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/qp/rvsjv1jj3ng...}, goog:chromeOptions: {debuggerAddress: localhost:51409}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: eager, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f4e4f0f544469f292a41491398033103
+*** Element info: {Using=id, value=PaRes}
+	at tests.paymentTest.successfulPayment(paymentTest.java:31)
+
